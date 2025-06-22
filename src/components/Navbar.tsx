@@ -71,18 +71,19 @@ export default function Navbar() {
                             <ul className="flex gap-8 text-black">
                                 <li>
                                     <Link
-                                        href="https://muhammadfiaz.com/privacy-policy"
-                                        className="hover:text-gray-600 hover:underline duration-150 transition-colors ease-in-out"
-                                    >
-                                        Privacy Policy
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link
                                         href="https://muhammadfiaz.com/terms-of-service"
                                         className="hover:text-gray-600 hover:underline duration-150 transition-colors ease-in-out"
                                     >
                                         Terms of Use
+                                    </Link>
+                                </li>
+                                
+                                <li>
+                                    <Link
+                                        href="https://muhammadfiaz.com/privacy-policy"
+                                        className="hover:text-gray-600 hover:underline duration-150 transition-colors ease-in-out"
+                                    >
+                                        Privacy Policy
                                     </Link>
                                 </li>
                                 <li>
